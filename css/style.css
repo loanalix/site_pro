@@ -1,3 +1,68 @@
-.red{
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Amiko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@700&display=swap');
+
+
+
+
+
+
+body {
+    margin: 0;
+    background-color: #ffffff;
+    background-image: url("../img/fond.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
+/*
+
+ - Navbar Init
+
+*/
+.navbar{
+    margin: 0;    
+    text-transform: uppercase;
+    font-family: Amiko;
+    margin-left:2%;
+    margin-right:2%;
+    
+}
+
+.navbar.li {
+    border-right: 1px solid #000;
+}
+
+
+.sidenav{
+    text-transform: uppercase;
+    
+}
+
+/*
+
+ - Navbar Init
+
+ ---------
+
+ - Useful class
+
+*/
+
+.the_sense_logo{
+    width: 68px;
+    height: 68px;
+}
+
+
+.row{
+    color: #646364 ;
+
+}
+.button{
+    text-align: center;
+}
+
+/*
+
+ - Useful class
+
+*/
