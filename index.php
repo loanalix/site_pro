@@ -10,7 +10,7 @@
   <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
   <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection" />
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Sense</title>
 </head>
@@ -28,51 +28,59 @@
         </div>
       </div>
     </div>
-  
-  <div class="pres">
-    <div class="container">
-      <div class="row padding" id="WhatTheSense">
-        <div class="col l3 offset-l1">
-          <img src="img/logovideo.png" alt="The Sense VR" class="responsive-img border">
-        </div>
-        <div class="col l6 offset-l1">
-          <div class="title flex">
-            <div>
-              <h1 class="vertical_align">
-                Qu'est ce que
-              </h1>
-            </div>
-            <div>
-              <img class="vertical_align responsive-img" src="img/logoText.png" alt="The Sense VR">
-            </div>
+
+    <div class="pres">
+      <div class="container">
+        <div class="row padding" id="WhatTheSense">
+          <div class="col l3 offset-l1">
+            <img src="img/logovideo.png" alt="The Sense VR" class="responsive-img border materialboxed">
           </div>
-          <!-- <h1 class="title transform align_items"> Qu'est ce que <img src="img/logoText.png" alt="The Sense VR"> ?</h1> -->
-          <p>Préparez-vous pour une expérience unique qui vous emmenera dans un autre univers. Vivez vos émotions
-            comme vous ne l'avez jamais fait aupravant. Avec THE SENSE explorez d'autres dimensions et vivez
-            l'impossible en interragissant avec un environnement dynamique et virtuel. Ce n'est pas une expérience
-            en réalité virtuelle que vous vivez, c'est la réalité.</p>
-          <a href="" class="redirect transform">Découvrez THE SENSE<i
-              class="vertical_align material-icons">arrow_forward</i></a>
+          <div class="col l6 offset-l1">
+            <div class="title flex">
+              <div>
+                <h1 class="vertical_align">
+                  Qu'est ce que
+                </h1>
+              </div>
+              <div>
+                <img class="vertical_align responsive-img" src="img/logoText.png" alt="The Sense VR">
+              </div>
+            </div>
+            <!-- <h1 class="title transform align_items"> Qu'est ce que <img src="img/logoText.png" alt="The Sense VR"> ?</h1> -->
+            <p>Préparez-vous pour une expérience unique qui vous emmenera dans un autre univers. Vivez vos émotions
+              comme vous ne l'avez jamais fait aupravant. Avec THE SENSE explorez d'autres dimensions et vivez
+              l'impossible en interragissant avec un environnement dynamique et virtuel. Ce n'est pas une expérience
+              en réalité virtuelle que vous vivez, c'est la réalité.</p>
+            <a href="" class="redirect transform">Découvrez THE SENSE<i
+                class="vertical_align material-icons">arrow_forward</i></a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
   </div>
 
-  <div>
-    <h2>La réalité à portée de main </h2>
-    <p> Vous rêvez de voyager</p>
-  </div>
-  <h2>Nos expériences les plus appréciées</h2>
-  <div class="row">
-    <div class="col s12 l10 offset-l1">
-      <div class="card borderCard cardWidth">
-        <div class="card-image ">
-          <img src="img/chateau.png" class="borderCard">
-          <span class="card-title right-align">60-90 min   <i class="material-icons">alarm</i></span>
+  <div class="container">
+    <div>
+      <h2>La réalité à portée de main </h2>
+      <p> Vous rêvez de voyager</p>
+    </div>
+    <h2>Nos expériences les plus appréciées</h2>
+    <div class="card borderCard cardWidth">
+      <div class="card-image ">
+        <img src="img/chateau.png" class="borderCard materialboxed">
+        <div class="row">
+          <div class="col l1">
+            <span class="card-title center">60-90 min <i class="material-icons">timer</i></span>
+          </div>
+          <div class="col l1 offset-l3">
+            <span class="card-title ">2 à 4<i class="material-icons">groups</i></span>
+          </div>
         </div>
       </div>
     </div>
+
+
+  </div>
   </div>
   <h2>Les news du mois</h2>
   <div class="row">
@@ -105,7 +113,8 @@
       </div>
     </div>
   </div>
-  <?php require "component/carousel.php"?>
+  </div>
+  <?php require "component/carousel.php" ?>
   <?php require "component/footer.php" ?>
 
 

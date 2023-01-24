@@ -1,9 +1,9 @@
-
+...............................................................................................................................................
 <div class="carousel carousel-slider center">
     <div class="carousel-fixed-item center">
       <a class="btn waves-effect white grey-text darken-text-2">next</a>
     </div>
-    <div class="carousel-item black-text" href="#one!">
+    <div class="carousel-item  black-text" href="#one!">
       <h2>First Panel</h2>
       <p class="black-text">"C'est la meilleure manière de faire découvrire l'experiance
         VR à vos enfants et vos grand-parents mais aussi de changer des perpétuels
@@ -11,7 +11,7 @@
       </p>
     </div>
 
-    <div class="carousel-item amber white-text" href="#two!">
+    <div class="carousel-item black-text" href="#two!">
       <h2>Second Panel</h2>
       <p class="black-text">"Bluffé par la qualité du service , que ce soit l'acceil
         et la prise en charge du groupe. Quand à l'expérience , rien à dire , c'est 
@@ -38,7 +38,6 @@
     </div>
 
     <div class="carousel-item blue white-text" href="#four!">
-      <h2>Fourth Panel</h2>
       <p class="white-text">"Avec mes fils nous avons tenté l'experience 
         "NAMELESS", moi qui pensais avoir tout vu dans le domaine de l'horreur, je 
         ne me suis jama&is autant trompé. Si vous êtes à la recherche de sensation forte 
@@ -48,8 +47,17 @@
     </div>
 
     <div class="carousel-item blue white-text" href="#four!">
-      <h2>Fourth Panel</h2>
-      <p class="white-text">This is your fourth panel</p>
+      <h2>LES ÉQUIPEMENTS THE SENSE </h2>
+      <p class="white-text">Tous nos équipements sont prévus pour toutes les tailles et tous les âges, ils 
+        conviennent aussi bien aux adultes qu'aux jeunes 12 ans. Ils vous garantissent également un confort à toutes épreuves lors de vos voyages chez nous.
+      </p>
+    </div>
+
+    <div class="carousel-item blue white-text" href="#four!">
+      <p class="white-text">"C'est dingue, j'ai vraiment eu l'impression d'être transporté dans un autre monde. Avant 
+        je ne faisais pas d'expérience VR car je ne croyais pas en la qualité mais grâce à The Sense, j'ai pu traverser la frontière du réel." <br> 
+        -Denise, 23 Octobre 2020 - 
+      </p>
     </div>
   </div>
 
