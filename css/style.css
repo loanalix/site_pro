@@ -1,0 +1,288 @@
+/* Importation des polices */
+@import url('https://fonts.googleapis.com/css?family=Amiko&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amiko:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+/* css pour les polices */
+.amikoRegular{
+    font-family: 'Amiko', sans-serif;
+}
+.amikoBold{
+    font-family: 'Amiko', sans-serif;
+    font-weight: 700;
+}
+.abel{
+    font-family: 'Abel', sans-serif;
+}
+.poppinsExtra{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+.poppinsThin{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+/* css global et utlie dans plusieur page */
+html{
+    scroll-behavior: smooth;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.tbMargin{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.bMargin{
+    margin-bottom: 0 !important;
+}
+.margin{
+    margin: 0 !important;
+}
+.tPadding{
+    padding-top: 15rem;
+}
+.border{
+    border-radius: 10px !important;
+}
+.bold{
+    font-weight: bold;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+.color_text{
+    color: #646363;
+}
+.color_band{
+    background-color:#EAFFFB
+}
+.color_title{
+    color : #3B4040;
+}
+/* Le css de la navbar */
+nav{
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.navbar{
+    margin-right:1%;
+    margin-left: 3%;
+}
+.border_li {
+    padding: 16px 3px;
+    cursor: auto;
+}
+.border_div {
+    border-right: 1px solid #000;
+    padding: 16px 3px;
+    cursor: auto;
+}
+.the_sense_logo{
+    width: 68px;
+    height: 68px;
+}
+
+.boxwidth{
+    width: 90%;
+    margin-left: 5%;
+}
+/* Le css Du form de la connexion */
+.textForm{
+    font-size: 1.3rem;
+}
+span.field-icon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    z-index: 2;
+}
+/* Background de la première partie qui s'arrête à la fin de la bannière qu'est ce que The Sense */
+.bgsense{
+    background-image: url("../img/background/home/part1bis.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/* Css page index */
+
+.paragraph{
+    font-size: 1.5rem;
+}
+.place{
+    margin-top: 55%;
+    margin-bottom: 21%;
+}
+.discover{
+    border-radius: 10px;
+    width: 200px;
+    font-size: x-large;
+    position: initial !important;
+}
+.blur{
+    backdrop-filter: blur(10px);
+}
+/* CSS only mobile */
+.mobile_title{
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/* CSS pour les card */
+.borderCard{
+    border-radius: 10px 10px 0% 0% !important;
+}
+.bordertext{
+    border-radius: 0% 0% 10px 10px;
+}
+.cardLike{
+    position: absolute;
+    top: 0 !important;
+}
+.rowCard{
+    margin-bottom: 0 !important;
+}
+.like{
+    font-size: 3.5rem !important;
+}
+span.roomFont{
+    font-size: 2rem;
+    
+}
+.titlecard{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+    .resp_paraCard{
+        font-size: 0.8rem;
+    }
+    .resp_titleCard{
+        font-weight: bolder;
+        font-size: 1rem;
+    }
+    span.resp_roomFont{
+        font-size: 1rem;
+    }
+    .icon{
+        font-size: 1.5rem !important;
+    }
+    .infoCard{
+        font-size: 0.8rem;
+    }
+}
+
+/* CSS pour le caroussel */
+
+.carousel{
+    height: 700px !important;
+}
+
+
+
+.caroutexte{
+    font-size: 2.5rem !important;
+    position: absolute;
+    margin-top: 7%;
+}
+
+.caroutexte2{
+    font-size: 2.5rem !important;
+    position: absolute;
+    margin-top: 24%;
+}
+
+.marginCarous{
+    margin-top: 4rem;
+}
+
+
+.imgtitle{
+    margin-top: 7%;
+    margin-left: 5%;
+
+}
+
+.carou{
+    /* background-image: url("../img/carousel/casque.png"); */
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    
+
+}
+
+
+/* Css pour le footer */
+.rowFooter{
+    margin-bottom: 0px !important;
+}
+.list{
+    text-decoration : none;
+    list-style-type : none;
+    display: inline;
+}
+
+/* Scrollbar init */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+}
+
+::-webkit-scrollbar-thumb {
+    background: darkslategrey;
+    border-radius: 10px;
+}
+/* ICI LE CSS DES COMPONENTS */
+/* Component paragraph */
+.titlePara{
+    font-size: 2.5rem !important;
+}
+.lPadding{
+    padding-left: 0 !important;
+}
+.rPadding{
+    padding-right: 0 !important;
+}
+.borderPara{
+    border-radius: 10px 0 0 10px !important;
+    height: 100% !important;
+}
+.sizeTextPara{
+    font-size:1.413rem !important;
+}
+/* CSS de la banner */
+.paddingBanner{
+    padding: 3%;
+}
+.widthBanner{
+    width: 35% !important;
+}
+/* @media   border-radius: 30px;
+} */
+
+
+
+
+/* Code pour aggrandir */
+/*
+(la classe en question){
+    transition: transform .2s;
+}
+
+(la classe en question):hover{
+    transform: scale(1.5);
+}
+*/

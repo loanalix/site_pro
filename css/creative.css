@@ -1,0 +1,33 @@
+body{
+    background-image: url("../img/vector.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.imgchoice{
+    width: 100% ;
+}
+.sizeBlock{
+    padding: 0rem !important ;
+    background-color: black !important;
+}
+.spacelist{
+    margin: 10% !important;
+}
+.sizeCardCreative{
+    border-bottom: 0px !important;
+}
+.sizecardCrea{
+    border-radius: 0% !important;
+    width: 100% !important;
+}
+.backimg{
+    background-image: url("../img/darkroombig.png");
+    
+}
+.block{
+    padding-top: 20%;
+    color : white;
+}
+.colorText{
+    color : red;
+}

@@ -1,0 +1,34 @@
+.background{
+    
+
+    height: 50rem;
+}
+.marginAccount{
+    margin-top: 9%;
+}
+.sizeAccount{
+    font-size: 10rem;
+}
+.widthLine{
+    width: 60% !important;
+}
+.test{
+    padding: 0 !important;
+}
+
+@media screen and (min-width: 600px) {
+    .background{
+        background-image: url('../img/background/virtual.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 37rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .background{
+        background-image: url('../img/background/virtualMobile.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 37rem;
+    }
+}

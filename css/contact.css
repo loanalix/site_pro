@@ -1,0 +1,14 @@
+.stylebutton{
+    border-radius: 10px;
+    background-color: #82FFE1;
+    color: white;
+    width: 120px;
+    border : 0px;
+    height: 40px;
+}
+.num{
+    color : #82FFE1;
+}
+.text{
+    height : 100px!important; 
+}

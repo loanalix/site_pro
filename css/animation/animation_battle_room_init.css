@@ -1,0 +1,49 @@
+/*
+
+ - Img above placement
+
+*/
+
+.img_animation_size {
+    width: 80%;
+}
+
+.animated_logo_placement {
+    padding-top: 5% !important;
+    align-items: center;
+}
+.animated_logo_placement.light {
+    margin-top: 2% !important;
+}
+.animated_logo_placement.creative {
+    margin-top: 2.5% !important;
+}
+.main_animated_logo_placement {
+    padding-top: 8% !important;
+    margin-left: 29% !important;
+}
+
+.main_img_animation_size {
+    width: 80%;
+}
+
+/*
+
+ - Img above placement
+ 
+ -------------
+
+ - Main Animation Setup
+
+*/
+
+.main_animation_setup {
+    transition: transform 1000ms ease-out;
+}
+
+/*
+
+ - Main Animation Setup
+
+*/
+

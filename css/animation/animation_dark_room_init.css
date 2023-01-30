@@ -1,0 +1,58 @@
+/*
+
+ - Img above placement
+
+*/
+
+.img_animation_size {
+    width: 80%;
+}
+img.battle {
+    width: 60% !important;
+}
+
+.animated_logo_placement {
+    padding-top: 5% !important;
+    align-items: center;
+}
+.animated_logo_placement.creative {
+    padding-top: 5.5% !important;
+}
+.animated_logo_placement.battle {
+    padding-left: 2% !important;
+}
+.main_animated_logo_placement {
+    padding-top: 8% !important;
+}
+
+.main_img_animation_size {
+    width: 60%;
+}
+
+/*
+
+ - Img above placement
+
+ ------------
+
+ - Animation setup
+
+*/
+
+
+/*
+
+ - Main Animation Setup
+
+*/
+
+.main_animation_setup {
+    transition: transform 1000ms ease-out;
+}
+
+/*
+
+ - Main Animation Setup
+
+*/
+

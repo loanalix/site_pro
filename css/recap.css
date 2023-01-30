@@ -1,0 +1,25 @@
+.sizeTitle{
+    font-size: 2.3rem;
+}
+.sizeMainInfo{
+    font-size: 2.5rem;
+}
+.sizeResend{
+    font-size: 0.938rem;
+}
+.sizeInfo{
+    font-size: 1.563rem;
+}
+.bMargin{
+    margin-bottom: 0!important;
+}
+.marginRowLogo{
+    margin-top: 2% !important;
+}
+.resend{
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

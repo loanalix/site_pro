@@ -1,0 +1,333 @@
+/*
+
+- Main Animation Setup
+
+*/
+
+.main_animation_setup {
+    transition: transform 1000ms ease-out;
+}
+
+/*
+
+ - Main Animation Setup
+
+*/
+
+
+
+/*
+
+ - From Battle To Light
+
+*/
+
+.fromBattleToLight_light_room_animation {
+    transform: translate(205%, 850%) scale(5, 5);
+}
+.fromBattleToLight_dark_room_animation {
+    transform: translate(-200%, 0%);
+}
+.fromBattleToLight_battle_room_animation {
+    transform: translate(0%, -150%) scale(0.3, 0.3);
+}
+
+/*
+
+ - From Battle To Light
+
+*/
+
+
+
+/*
+
+ - From Battle To Dark
+
+*/
+
+.fromBattleToDark_dark_room_animation {
+    transform: translate(0%, 245%) scale(2.5, 2.5);
+}
+.fromBattleToDark_creative_room_animation {
+    transform: translate(-200%, 0%);
+}
+.fromBattleToDark_light_room_animation {
+    transform: translate(400%, 0%);
+}
+.fromBattleToDark_battle_room_animation {
+    transform: translate(-60%, -155%) scale(0.3, 0.3);
+}
+
+/*
+
+ - From Battle To Dark
+
+*/
+
+
+
+/*
+
+ - From Battle To Creative
+
+*/
+
+.fromBattleToCreative_creative_room_animation {
+    transform: translate(-200%, 1080%) scale(5, 5);
+}
+.fromBattleToCreative_battle_room_animation {
+    transform: translate(60%, -155%) scale(0.3, 0.3);
+}
+
+/*
+
+ - From Battle To Creative
+
+*/
+
+
+
+/*
+
+ - From Creative To Light
+
+*/
+
+.fromCreativeToLight_light_room_animation {
+    transform: translate(215%, 775%) scale(4, 4);
+}
+
+.fromCreativeToLight_dark_room_animation {
+    transform: translate(-200%, 0%);
+}
+
+.fromCreativeToLight_battle_room_animation {
+    transform: translate(-200%, 0%);
+}
+
+.fromCreativeToLight_creative_room_animation {
+    transform: translate(40%, -225%) scale(0.3, 0.3);
+}
+
+/*
+
+ - From Creative To Light 
+
+*/
+
+
+
+/*
+
+ - From Creative To Dark
+
+*/
+
+.fromCreativeToDark_dark_room_animation {
+    transform: translate(0%, 325%) scale(2.5, 2.5);
+}
+
+.fromCreativeToDark_creative_room_animation {
+    transform: translate(0%, -227%) scale(0.3, 0.3);
+}
+
+.fromCreativeToDark_light_room_animation {
+    transform: translate(400%, 0%);
+}
+
+.fromCreativeToDark_battle_room_animation {
+    transform: translate(-400%, 0%);
+}
+
+/*
+
+ - From Creative To Dark
+
+*/
+
+/*
+
+ - From Creative To Battle
+
+*/
+
+
+.fromCreativeToBattle_battle_room_animation {
+    transform: translate(-190%, 450%) scale(2.5, 2.5);
+}
+
+.fromCreativeToBattle_creative_room_animation {
+    transform: translate(40%, -220%) scale(0.3, 0.3);
+}
+
+/*
+
+ - From Creative To Battle
+
+*/
+
+
+
+
+/*
+
+ - From Dark to Battle
+
+*/
+
+
+.fromDarkToBattle_battle_room_animation {
+    transform: translate(300%, 650%) scale(4, 4);
+}
+.fromDarkToBattle_dark_room_animation {
+    transform: translate(0%, -105%) scale(0.4, 0.4);
+}
+.fromDarkToBattle_creative_room_animation {
+    transform: translate(200%, 0%);
+}
+.fromDarkToBattle_light_room_animation {
+    transform: translate(-400%, 0%);
+}
+
+/*
+
+ - From Dark to Battle
+
+*/
+
+
+/*
+
+ - From Dark To Creative
+
+*/
+
+.fromDarkToCreative_creative_room_animation {
+    transform: translate(0%, 1050%) scale(5, 5);
+}
+.fromDarkToCreative_dark_room_animation {
+    transform: translate(0%, -105%) scale(0.4, 0.4);
+}
+.fromDarkToCreative_light_room_animation {
+    transform: translate(-400%, 0%);
+}
+.fromDarkToCreative_battle_room_animation {
+    transform: translate(550%, 0%);
+}
+
+/*
+
+ - From Dark To Creative
+
+*/
+
+/*
+
+ - From Dark to Light
+
+*/
+
+.fromDarkToLight_light_room_animation {
+    transform: translate(-200%, 850%) scale(5, 5);
+}
+.fromDarkToLight_dark_room_animation {
+    transform: translate(-90%, -105%) scale(0.4, 0.4);
+}
+.fromDarkToLight_battle_room_animation {
+    transform: translate(300%, 0%);
+}
+.fromDarkToLight_creative_room_animation {
+    transform: translate(200%, 0%);
+}
+
+/*
+
+ - From Dark to Light
+
+*/
+
+
+
+
+/*
+
+ - To Dark Room Animation
+
+*/
+
+.fromLightToDark_dark_room_animation {
+    transform: translate(220%, 300%) scale(2.5, 2.5);
+}
+
+.fromLightToDark_battle_room_animation {
+    transform: translate(-200%, 0px);
+}
+
+.fromLightToDark_creative_room_animation {
+    transform: translate(-200%, 0px);
+}
+
+.fromLightToDark_light_room_animation {
+    transform: translate(45%, -175%) scale(0.3, 0.3);
+}
+
+/*
+
+ - To Dark Room Animation
+
+*/
+
+
+/*
+
+ - To Battle Room Animation
+
+*/
+  
+.fromLightToBattle_battle_room_animation {
+    transform: translate(0%, 440%) scale(2.5, 2.5);
+}
+
+.fromLightToBattle_light_room_animation {
+    transform: translate(-45%, -175%) scale(0.3, 0.3);
+}
+
+.fromLightToBattle_dark_room_animation {
+    transform: translate(200%, 0%);
+}
+
+/*
+
+ - To Battle Room Animation
+
+*/
+
+
+/*
+
+ - To Creative Room Animation
+
+*/
+
+.fromLightToCreative_creative_room_animation {
+    transform: translate(-200%, 1200%) scale(4.5, 4.5);
+}
+
+.fromLightToCreative_light_room_animation {
+    transform: translate(-45%, -175%) scale(0.3, 0.3);
+}
+
+.fromLightToCreative_dark_room_animation {
+    transform: translate(225%, 0%);
+}
+
+.fromLightToCreative_battle_room_animation {
+    transform: translate(200%, 0%);
+}
+
+/*
+
+ - To Creative Room Animation
+
+*/
